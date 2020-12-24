@@ -1,0 +1,148 @@
+>> Loop Python
+
+Perulangan dalam bahasa pemrograman berfungsi menyuruh komputer 
+melakukan sesuatu secara berulang-ulang. 
+Terdapat dua jenis perualangan dalam bahasa pemrograman python
+yaitu perulangan dengan for dan while.
+Perulangan for disebut counted loop (perulangan yang terhitung)
+sementara perulangan while disebut uncounted loop (perulangan yang tak terhitung). 
+Perbedaannya adalah perulangan for biasanya digunakan untuk
+mengulangi kode yang sudah diketahui banyak perulangannya. 
+Sementara while untuk perulangan yang memiliki syarat dan tidak tentu berapa banyak perulangannya.
+
+> Loop For 
+
+Bentuk umum :
+
+for index in range(jumlah_looping):
+	# statement yang akan di run
+	# statement berikutnya
+# kode ini tidak akan di run karena berada di luar statement
+
+> Examples :
+
+# file: perulanganFor.py
+print('\n')
+ulang = 10
+
+for i in range(ulang):
+	print('Perulangan ke-', str(i))
+
+Pertama kita menentukan banyak / jumlah yang akan diulang(ulang = 10)
+variable i berfungsi untuk menampung indeks.
+Dan fungsi range() untuk membuat list dengan range dari 0 - 10.
+Fungsi str() berfungsi merubah type data integer ke string 
+(for i in range(ulang): 
+	print('Perulangan ke-', str(i))
+bisa juga menggunakan + untuk menggabungkan kedua string contoh
+print('Perulangan ke-'+ str(i))
+
+> Output :
+
+Perulangan ke- 0
+Perulangan ke- 1
+Perulangan ke- 2
+Perulangan ke- 3
+Perulangan ke- 4
+Perulangan ke- 5
+Perulangan ke- 6
+Perulangan ke- 7
+Perulangan ke- 8
+Perulangan ke- 9
+
+> Contoh lain menggunakan senarai / list :
+
+# Contoh pengulangan for dengan senarai
+buah = ["nanas", "apel", "jeruk"]
+for makanan in buah:
+    print ("Saya suka makan", makanan)
+
+> Output :
+
+Saya suka makan nanas
+Saya suka makan apel
+Saya suka makan jeruk
+
+>> Loop While
+
+> Bentuk umum :
+
+while(True):
+	# statement yang akan dijalankan
+# kode ini berada di luar perulangan while
+
+> Examples :
+
+# Contoh perulangan dengan while
+jawab = 'ya'
+hitung = 0
+
+while(jawab == 'ya'):
+    hitung += 1
+    jawab = input('Apakah kamu ingin mengulang ? ')
+
+print('Total perulangan-', str(hitung))
+
+> Output :
+
+Apakah kamu ingin mengulang ? ya
+Apakah kamu ingin mengulang ? ya
+Apakah kamu ingin mengulang ? ya
+Apakah kamu ingin mengulang ? ya
+Apakah kamu ingin mengulang ? ya
+Apakah kamu ingin mengulang ? ya
+Apakah kamu ingin mengulang ? ya
+Apakah kamu ingin mengulang ? ya
+Apakah kamu ingin mengulang ? ya
+Apakah kamu ingin mengulang ? ya
+Apakah kamu ingin mengulang ? tidak
+Total perulangan- 11
+
+Atau kita bisa menggunakan kata kunci break untuk mengakhiri 
+statement jika sudah terpenuhi.
+
+> Examples :
+
+# Contoh while menggunakan break
+jawab = 'ya'
+hitung = 0
+
+while(jawab == 'ya'):
+    hitung += 1
+    jawab = input("Ulang lagi tidak? ")
+    if(jawab == 'tidak'):
+        break
+
+print ("Total perulangan: "+ str(hitung))
+
+Pertama kita menentukan variable untuk menghitung dan menentukan
+kapan perulangan akan berhenti. jika input sama dengan tidak
+makan program akan terhenti, kata kunci break untuk menghentikan
+program.
+# variable
+jawab = 'ya'
+
+# hitungan berawal dari 0
+hitung = 0
+
+# akan mengulangi jika input user sama dengan ya
+while(jawab == 'ya'):
+
+# dan hitungan ditambah 1
+    hitung += 1
+
+# ambil input user
+jawab = input("Ulang lagi tidak? ")
+
+# input user sama dengan tidak program akan terhenti
+if(jawab == 'tidak'):
+	break
+
+# mencetak berapa kali perulangan 
+print ("Total perulangan: "+ str(hitung))
+
+> Output :
+Ulang lagi tidak? ya
+Ulang lagi tidak? ya
+Ulang lagi tidak? tidak
+Total perulangan: 3
