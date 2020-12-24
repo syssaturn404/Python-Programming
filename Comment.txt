@@ -1,0 +1,38 @@
+>> Komentar
+
+Komentar (comment) adalah kode di dalam script Python yang tidak dieksekusi atau tidak dijalankan mesin.
+Komentar hanya digunakan untuk menandai atau memberikan keterangan tertulis pada script.
+Komentar biasa digunakan untuk membiarkan orang lain memahami apa yang dilakukan script. 
+Atau untuk mengingatkan kepada programmer sendiri jika suatu saat kembali mengedit script tersebut.
+Akan tetapi komentar di python berbeda dengan komentar pemrograman lainnya yang biasanya menggunakan slash(//).
+Untuk menggunakan komentar anda cukup menulis tanda pagar #, diikuti dengan komentar Anda.
+
+> Examples : 
+
+# Komentar satu baris 
+"""
+Komentar
+Dua baris
+"""
+
+> Examples Program : 
+
+print("HelloWorld ! ") # deklarasi pertama 
+# contoh komentar satu baris
+print("Ternyata belajar python itu mudah dan asik")
+"""
+contoh komentar
+dua baris 
+"""
+
+Output :
+Python 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+================ RESTART: D:/Ngoding_Python/examples_comment.py ================
+HelloWorld ! 
+Ternyata belajar python itu mudah dan asik
+>>> 
+
+Saat Anda execution terlihat dalam output hanya (HelloWorld), dan (Ternyata belajar python itu mudah dan asik) yang terlihat,
+Karena komentar tidak akan di eksekusi.
