@@ -1,0 +1,83 @@
+>> If conditional
+Pengambilan keputusan (kondisi if) digunakan untuk mengantisipasi kondisi yang terjadi 
+saat jalanya program dan menentukan tindakan apa yang akan diambil sesuai dengan kondisi.
+Pada python ada beberapa statement / kondisi :
+	- if 
+	- else
+	- elif.
+Kondisi if adalah kondisi yang akan di jalankan oleh program jika values / nilai TRUE.
+jika value / nilai salah else akan berjalan.
+
+>> Examples :
+# kondisi if akan di exe program apabila value / nilai TRUE
+
+nilai = 9
+
+# ket
+print('.:: BLOK PERCABANGAN ::.')
+print('Nilai awal : ', nilai,'Akan dibandingkan')
+# kondisi if
+if(nilai > 7):
+    print('7 Lebih besar dari', nilai)
+    
+# kondisi if
+if(nilai > 10):
+    print('10 Lebih besar dari', nilai)
+
+Dari contoh diatas nilai awal adalah 9 dan didalam kondisi / statement if nilai itu akan dibandingkan
+dengan 7, jika value / nilai TRUE akan menghasilkan (7 Lebih besar dari 9)
+Jika nilai lebih besar dari 10 akan menampilkan (10 Lebih besar dari 9)
+
+>> If Else conditional
+Pengambilan keputusan (kondisi if else) tidak hanya digunakan untuk menentukan tindakan apa yang akan diambil sesuai dengan kondisi,
+tetapi juga digunakan untuk menentukan tindakan apa yang akan diambil / dijalankan jika kondisi tidak sesuai.
+
+>> Examples :
+
+# variable
+nama = 'rajingoding'
+
+# ambil input user
+nama = input('Masukan Nama Kamu : ')
+
+# if conditional
+if(nama == 'rajingoding'):
+    print('Selamat Datang', nama)
+
+# else conditional
+else:
+    print('Kamu Siapa ?')
+
+Pada contoh diatas variable nama diisi dengan (rajingoding)
+dan kita mengambil input dari user, lalu di bagian kondisi nama 
+akan kita bandingkan dengan input user jika nama sama dengan yang ditujukan
+alamat variable akan menampilkan string(Selamat Datang rajingoding).
+Jika nilai / value false atau salah akan menampilkan string(Kamu Siapa ?).
+
+>> Elif conditional
+Pengambilan keputusan (kondisi if elif) merupakan lanjutan/percabangan logika dari “kondisi if”. 
+Dengan elif kita bisa membuat kode program yang akan menyeleksi beberapa kemungkinan yang bisa terjadi. 
+Hampir sama dengan kondisi “else”, bedanya kondisi “elif” bisa banyak dan tidak hanya satu.
+
+>> Examples :
+# variable
+kul = 'senin'
+
+# ambil input
+kul = input('Hari masuk kuliah : ')
+
+# statement
+if(kul == 'senin'):
+    print('Masuk hari pertama')
+elif(kul == 'selasa'):
+        print('Masuk hari kedua')
+elif(kul == 'rabu'):
+    print('Masuk hari ketiga')
+elif(kul == 'kamis'):
+    print('Masuk hari keempat')
+elif(kul == 'jumat'):
+    print('Masuk hari kelima')
+elif(kul == 'sabtu'):
+    print('Libur pertama')
+elif(kul == 'minggu'):
+    print('Libur akhir')
