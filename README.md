@@ -13,6 +13,7 @@
 |  Variables         |✅[Variables](https://github.com/syssaturn404/Python-Programming/blob/master/Variables.txt)            |
 |  Operators         |✅[Operators](https://github.com/syssaturn404/Python-Programming/blob/master/Operators/Definition.txt) |
 |  Branching         |✅[Branching](https://github.com/syssaturn404/Python-Programming/blob/master/Branching/Definition.txt) |
+|  Loop              |✅[Loop](https://github.com/syssaturn404/Python-Programming/blob/master/Loop/Definition.txt)           |
 
 | *Examples Program* |      _KATEGORI_                                                                                         |
 | ------------------ | ------------------------------------------------------------------------------------------------------- |
@@ -30,6 +31,10 @@
 | Branching    |✅[If Conditional](https://github.com/syssaturn404/Python-Programming/blob/master/Branching/if_conditional.py) |
 | |✅[If Else Conditional](https://github.com/syssaturn404/Python-Programming/blob/master/Branching/ifelse_conditional.py)     |
 | |✅[Elif Conditional](https://github.com/syssaturn404/Python-Programming/blob/master/Branching/elif_conditional.py)          |
+| Loop         |✅[Loop For](https://github.com/syssaturn404/Python-Programming/blob/master/Loop/Loop_for.py)                  |
+| |✅[Loop While](https://github.com/syssaturn404/Python-Programming/blob/master/Loop/Loop_while.py)                           |
+| |✅[Loop Nested](https://github.com/syssaturn404/Python-Programming/blob/master/Loop/Loop_nested.py)                         |
+| |✅[Loop Using Break Keyword](https://github.com/syssaturn404/Python-Programming/blob/master/Loop/Loop_whilebreak.py)        |
 ```
 How do I run this program?
 
