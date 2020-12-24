@@ -1,0 +1,48 @@
+>> Variable Python
+
+Variabel adalah lokasi memori yang dicadangkan untuk menyimpan nilai-nilai. 
+Ini berarti bahwa ketika Anda membuat sebuah variabel Anda memesan beberapa ruang di memori. Variabel menyimpan data yang dilakukan selama program dieksekusi
+yang nantinya isi dari variabel tersebut dapat diubah oleh operasi - operasi tertentu pada program yang menggunakan variabel.
+Variabel dapat menyimpan berbagai macam tipe data. Di dalam pemrograman Python, variabel mempunyai sifat yang dinamis
+artinya variabel Python tidak perlu didekralasikan tipe data tertentu dan variabel Python dapat diubah saat program dijalankan.
+
+>> Aturan penulisan 
+    - Karakter pertama harus berupa huruf atau garis bawah/underscore _
+    - Karakter selanjutnya dapat berupa huruf, garis bawah/underscore _ atau angka 
+    - Karakter pada nama variabel bersifat sensitif (case-sensitif). 
+    Artinya huruf kecil dan huruf besar dibedakan. Sebagai contoh, variabel namaDepan dan namadepan adalah variabel yang berbeda.
+    
+> Examples :
+
+#proses memasukan data ke dalam variabel
+nama = "Rajingoding"
+
+#proses mencetak variabel
+print(nama)
+
+#nilai dan tipe data dalam variabel  dapat diubah
+umur = 20               #nilai awal
+print("Umur : ", umur)             #mencetak nilai umur
+type(umur)              #mengecek tipe data umur
+umur = "dua puluh satu" #nilai setelah diubah
+print("Umur : ", umur)             #mencetak nilai umur
+type(umur)              #mengecek tipe data umur
+
+namaDepan = "Ridwan"
+namaBelakang = "Malik"
+nama = namaDepan + "" + namaBelakang
+umur = 22
+hobi = "Ngoding"
+print("Biodata :: \n", "Nama : ",nama,"\n", "Umur : ", umur, "\n", "Hobi : ",hobi)
+
+#contoh variabel lainya
+inivariabel = "Halo"
+ini_juga_variabel = "Hai"
+_inivariabeljuga = "Hi"
+inivariabel222 = "Bye" 
+
+panjang = 10
+lebar = 5
+luas = panjang * lebar
+print( "Panjang : ", panjang,"\n","Lebar : ", lebar)
+print(luas)
